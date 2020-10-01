@@ -1,0 +1,35 @@
+<main class="container mt-3 text-center">
+
+  <h1 class="">Express Handlebars Boilerplate</h1>
+
+
+  <div class="row">
+
+    <div class="col-md mt-3">
+
+      <h3>Your text</h3>
+
+      <form action="/api" method="POST">
+        <div class="form-group">
+          <input type="text" name="text" class="form-control" placeholder="your text"></input>
+        </div>
+
+        <div class="text-center">
+          <button class="btn button-green">Submit</button>
+        </div>
+      </form>
+
+    </div>
+
+    <div class="col-md mt-3">
+
+      <h3>Response</h3>
+            {{#each data}}
+            <p>
+            {{content}}
+            </p>
+            {{/each}}
+    </div>
+
+  </div>
+</main>
