@@ -15,5 +15,5 @@
     "start": "node server.js"
   },
   "author": "jakub velfl",
-  "license": "ISC"
+  "license": "MIT"
 }
